@@ -31,6 +31,7 @@ contract StakingManager {
         StakingNFTBadgeFor3Months _badgeFor3Months, 
         StakingNFTBadgeFor6Months _badgeFor6Months, 
         StakingNFTBadgeFor1Year _badgeFor1Year
+        StakingNFTBadgeFor3Year _badgeFor3Year
     ) public {
         lpToken = _lpToken;
         rewardToken = _rewardToken;
